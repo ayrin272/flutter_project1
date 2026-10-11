@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project1/homepage.dart';
+import 'package:flutter_project1/assignment_3.dart';
 
 void main(){
   runApp(const MyApp());
@@ -13,8 +13,6 @@ class MyApp extends StatelessWidget{
   return MaterialApp( 
     theme: ThemeData.dark(),
     debugShowCheckedModeBanner: false,
-    home:Homepage());//full app a cng korle aikhane korbo
-
+    home: Assignment3());
   }
-
 }
